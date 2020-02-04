@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'alte',
+    # 'adminlte3',
+    # 'adminlte3_theme',
 ]
 
 MIDDLEWARE = [

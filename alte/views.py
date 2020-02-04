@@ -10,6 +10,7 @@ class index(View):
     def get(self, request, tempurl=None):
         renderfile = request.path.replace('/', '')
         print(renderfile)
+        print(request._current_scheme_host)
         if renderfile:
             return render(request, renderfile)
         else:
